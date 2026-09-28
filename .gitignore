@@ -1,0 +1,12 @@
+# haven-badge: only KiCad design files are versioned.
+# Generator scripts, BOMs, exports and media stay local.
+/*
+!/eink-badge.kicad_sch
+!/eink-badge.kicad_pro
+!/eink-badge.kicad_prl
+!/fp-lib-table
+!/sym-lib-table
+!/eink_badge.kicad_sym
+!/eink_badge.pretty
+!/eink_badge.pretty/*
+!/.gitignore

@@ -1,0 +1,87 @@
+(footprint "NFC_Antenna_Pads"
+	(version 20260206)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(descr "2-pad landing pattern for PCB NFC coil antenna wire ends (ST25DV)")
+	(tags "nfc antenna coil")
+	(attr smd)
+	(property "Reference" "L**"
+		(at 0 -3.2 0)
+		(layer "F.SilkS")
+		(uuid "1f0a7c2e-9b41-4d6f-8a03-5c2b9e7d4a01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NFC_Antenna_Pads"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(uuid "2b1c8d3f-0c52-4e7a-9b14-6d3c8f6e5b02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c2d9e40-1d63-4f8b-8c25-7e4d9a7f6c03")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "2-pad landing for PCB NFC coil antenna ends"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d3ea051-2e74-4a9c-9d36-8f5ea0b07d04")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_rect
+		(start -1.5 -2.7)
+		(end 1.5 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5e4fb162-3f85-4bad-ae47-9a6fb1c18e05")
+	)
+	(fp_rect
+		(start -1.6 -2.8)
+		(end 1.6 2.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6f5ac273-4096-4cbe-bf58-ab7ac2d29f06")
+	)
+	(pad "1" smd rect
+		(at 0 -1.6)
+		(size 1.4 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7a6bd384-41a7-4dcf-a069-bc8bd3e3a007")
+	)
+	(pad "2" smd rect
+		(at 0 1.6)
+		(size 1.4 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b7ce495-42b8-4ed0-b17a-cd9ce4f4b108")
+	)
+	(embedded_fonts no)
+)

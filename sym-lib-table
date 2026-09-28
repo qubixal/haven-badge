@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "eink_badge")(type "KiCad")(uri "${KIPRJMOD}/eink_badge.kicad_sym")(options "")(descr "e-ink badge custom symbols"))
+)
