@@ -1,4 +1,4 @@
-(kicad_symbol_lib
+ (kicad_symbol_lib
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
@@ -761,7 +761,7 @@
 				)
 			)
 		)
-		(property "Value" "4.83uH"
+		(property "Value" "13.56MHz RFID antenna coil"
 			(at 0 -4.445 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -771,7 +771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "eink_badge:NFC_Antenna_Pads"
+		(property "Footprint" "RF_Antenna:Coilcraft_MA5532-AE_RFID"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -793,7 +793,7 @@
 				)
 			)
 		)
-		(property "Description" "PCB NFC antenna coil, ~4.8uH for ST25DV (internal tuning cap)"
+		(property "Description" "13.56 MHz SMD transponder coil, ~4.7 uH, for ST25DVxxKC (internal 28.5 pF tuning cap)"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

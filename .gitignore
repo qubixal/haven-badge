@@ -2,6 +2,7 @@
 # Generator scripts, BOMs, exports and media stay local.
 /*
 !/eink-badge.kicad_sch
+!/eink-badge.kicad_pcb
 !/eink-badge.kicad_pro
 !/eink-badge.kicad_prl
 !/fp-lib-table

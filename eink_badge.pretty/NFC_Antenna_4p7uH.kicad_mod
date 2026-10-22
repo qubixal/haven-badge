@@ -1,0 +1,147 @@
+(footprint "NFC_Antenna_4p7uH"
+	(version 20240108)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(uuid "1c20849d-b225-4eb5-8b5c-6e6d88592d3d")
+	(descr "13.56 MHz PCB loop antenna, 19-turn rectangular spiral, 22 x 35 mm, ~4.7 uH. The copper is board tracks, not a custom pad: a self-crossing path gives KiCad no usable polygon, and the Overglade badge shipped with zero copper here. The 1.2 mm gap at the centre is bridged by the ST25DV04KC internal 28.5 pF (CTUN), which resonates the loop at 13.56 MHz.")
+	(tags "nfc antenna 13.56MHz spiral")
+	(attr smd)
+	(property "Reference" "L**"
+		(at 11 17.5 0)
+		(layer "F.SilkS")
+		(uuid "5075aaef-4858-45e2-b7d7-99ddb5b2ff9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NFC_Antenna_4p7uH"
+		(at 11 19.5 0)
+		(layer "F.Fab")
+		(uuid "089deb3a-7fc5-410f-8aba-cfbc7cdccd5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 11 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc1f081f-2df7-4baf-a28f-f0cfbda24e3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "13.56 MHz PCB loop antenna, 22 x 35 mm spiral, ~4.7 uH, tuned by the ST25DV04KC's internal 28.5 pF"
+		(at 11 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8569368b-b1e5-4714-b3a0-651459cacbf7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.1730 0.1740)
+		(end 21.8260 0.1740)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d7e37ae2-356b-4bc8-89a9-83ffe0da7ed4")
+	)
+	(fp_line
+		(start 21.8260 0.1740)
+		(end 21.8260 34.8270)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ade8bcfc-da69-436a-8f9a-86ae2bc8c7d8")
+	)
+	(fp_line
+		(start 21.8260 34.8270)
+		(end 0.1730 34.8270)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6431ac0f-bbfa-47a8-a4fa-270cce547346")
+	)
+	(fp_line
+		(start 0.1730 34.8270)
+		(end 0.1730 0.1740)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7e849f2e-569a-41b0-a9f8-7bd760bf8ee6")
+	)
+	(fp_line
+		(start -0.5000 -0.5000)
+		(end 22.5000 -0.5000)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "58f95445-5d7b-4b52-906a-6a419b8178fe")
+	)
+	(fp_line
+		(start 22.5000 -0.5000)
+		(end 22.5000 35.5000)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b39d8e58-ee0e-49a9-877b-44cd814a63e7")
+	)
+	(fp_line
+		(start 22.5000 35.5000)
+		(end -0.5000 35.5000)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7fe2fffa-43e7-4cf5-9837-2d855cc122ba")
+	)
+	(fp_line
+		(start -0.5000 35.5000)
+		(end -0.5000 -0.5000)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "88478719-f8ba-4c6d-9ba2-b69ce1d3e58d")
+	)
+	(pad "1" smd rect
+		(at 10.4444 34.8265)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b7d8151f-9db2-41d3-97d4-4c924ac9f377")
+	)
+	(pad "2" smd rect
+		(at 12.8625 23.0625)
+		(size 0.35 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6e52c56d-0e9f-4bc5-94a0-002908c0ef16")
+	)
+)
